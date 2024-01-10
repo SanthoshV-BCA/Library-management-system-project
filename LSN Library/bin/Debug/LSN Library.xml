@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LSN Library
+</name>
+</assembly>
+<members>
+<member name="T:LSN_Library.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:LSN_Library.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:LSN_Library.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet.stuinfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet.stuinfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet.stuinfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSetTableAdapters.stuinfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(LSN_Library.santoDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(LSN_Library.santoDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(LSN_Library.santoDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSetTableAdapters.TableAdapterManager.UpdateAll(LSN_Library.santoDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet1.staffinfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet1.staffinfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet1.staffinfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet1TableAdapters.staffinfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(LSN_Library.santoDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(LSN_Library.santoDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(LSN_Library.santoDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet1TableAdapters.TableAdapterManager.UpdateAll(LSN_Library.santoDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet10">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet10.bookinfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet10.bookinfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet10.bookinfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet10TableAdapters.bookinfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet10TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(LSN_Library.santoDataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(LSN_Library.santoDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(LSN_Library.santoDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet10TableAdapters.TableAdapterManager.UpdateAll(LSN_Library.santoDataSet10)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet11">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet11.issuebookDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet11.issuebookRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet11.issuebookRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet11TableAdapters.issuebookTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet11TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet11TableAdapters.TableAdapterManager.UpdateUpdatedRows(LSN_Library.santoDataSet11,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet11TableAdapters.TableAdapterManager.UpdateInsertedRows(LSN_Library.santoDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet11TableAdapters.TableAdapterManager.UpdateDeletedRows(LSN_Library.santoDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet11TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet11TableAdapters.TableAdapterManager.UpdateAll(LSN_Library.santoDataSet11)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet11TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet11TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet12">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet12.staffinfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet12.staffinfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet12.staffinfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet12TableAdapters.staffinfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet12TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet12TableAdapters.TableAdapterManager.UpdateUpdatedRows(LSN_Library.santoDataSet12,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet12TableAdapters.TableAdapterManager.UpdateInsertedRows(LSN_Library.santoDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet12TableAdapters.TableAdapterManager.UpdateDeletedRows(LSN_Library.santoDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet12TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet12TableAdapters.TableAdapterManager.UpdateAll(LSN_Library.santoDataSet12)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet12TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet12TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet13">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet13.stuinfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet13.stuinfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet13.stuinfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet13TableAdapters.stuinfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet13TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet13TableAdapters.TableAdapterManager.UpdateUpdatedRows(LSN_Library.santoDataSet13,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet13TableAdapters.TableAdapterManager.UpdateInsertedRows(LSN_Library.santoDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet13TableAdapters.TableAdapterManager.UpdateDeletedRows(LSN_Library.santoDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet13TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet13TableAdapters.TableAdapterManager.UpdateAll(LSN_Library.santoDataSet13)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet13TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet13TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet14">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet14.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet14.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet14.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet14TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet14TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet14TableAdapters.TableAdapterManager.UpdateUpdatedRows(LSN_Library.santoDataSet14,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet14TableAdapters.TableAdapterManager.UpdateInsertedRows(LSN_Library.santoDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet14TableAdapters.TableAdapterManager.UpdateDeletedRows(LSN_Library.santoDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet14TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet14TableAdapters.TableAdapterManager.UpdateAll(LSN_Library.santoDataSet14)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet14TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet14TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet2.bookinfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet2.bookinfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet2.bookinfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet2TableAdapters.bookinfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(LSN_Library.santoDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(LSN_Library.santoDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(LSN_Library.santoDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet2TableAdapters.TableAdapterManager.UpdateAll(LSN_Library.santoDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet3.returnbookDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet3.returnbookRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet3.returnbookRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet3TableAdapters.returnbookTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(LSN_Library.santoDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(LSN_Library.santoDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(LSN_Library.santoDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet3TableAdapters.TableAdapterManager.UpdateAll(LSN_Library.santoDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet4.issuebookDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet4.issuebookRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet4.issuebookRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet4TableAdapters.issuebookTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(LSN_Library.santoDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(LSN_Library.santoDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(LSN_Library.santoDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet4TableAdapters.TableAdapterManager.UpdateAll(LSN_Library.santoDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet5.issuebookDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet5.issuebookRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet5.issuebookRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet5TableAdapters.issuebookTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(LSN_Library.santoDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(LSN_Library.santoDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(LSN_Library.santoDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet5TableAdapters.TableAdapterManager.UpdateAll(LSN_Library.santoDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet6.bookinfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet6.bookinfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet6.bookinfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet6TableAdapters.bookinfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(LSN_Library.santoDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(LSN_Library.santoDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(LSN_Library.santoDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet6TableAdapters.TableAdapterManager.UpdateAll(LSN_Library.santoDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.bookinfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.issuebookDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.returnbookDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.staffinfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.stuinfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.bookinfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.issuebookRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.returnbookRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.staffinfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.stuinfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.bookinfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.issuebookRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.returnbookRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.staffinfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7.stuinfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7TableAdapters.bookinfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7TableAdapters.issuebookTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7TableAdapters.returnbookTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7TableAdapters.staffinfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7TableAdapters.stuinfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(LSN_Library.santoDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(LSN_Library.santoDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(LSN_Library.santoDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet7TableAdapters.TableAdapterManager.UpdateAll(LSN_Library.santoDataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet8">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet8.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet8.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet8.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet8TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet8TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(LSN_Library.santoDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(LSN_Library.santoDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(LSN_Library.santoDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet8TableAdapters.TableAdapterManager.UpdateAll(LSN_Library.santoDataSet8)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.bookinfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.issuebookDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.returnbookDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.staffinfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.stuinfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.bookinfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.issuebookRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.returnbookRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.staffinfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.stuinfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.bookinfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.issuebookRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.returnbookRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.staffinfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9.stuinfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9TableAdapters.bookinfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9TableAdapters.issuebookTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9TableAdapters.returnbookTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9TableAdapters.staffinfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9TableAdapters.stuinfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(LSN_Library.santoDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(LSN_Library.santoDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(LSN_Library.santoDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LSN_Library.santoDataSet9TableAdapters.TableAdapterManager.UpdateAll(LSN_Library.santoDataSet9)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LSN_Library.santoDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
